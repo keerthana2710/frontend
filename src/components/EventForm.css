@@ -1,0 +1,126 @@
+/* src/EventList.css */
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event-card {
+    background-color: #e3e2c8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 15px;
+    overflow: hidden;
+    width:400px;
+    box-shadow: 0 4px 8px rgba(96, 69, 69, 0.1);
+}
+
+.event-card:hover {
+    box-shadow: 0 4px 8px rgb(51, 13, 78);
+}
+
+.event-info {
+    margin-bottom: 10px;
+}
+
+.event-title {
+    font-weight: bold;
+}
+
+.event-date {
+    color: #535252;
+}
+
+.event-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-btn:hover {
+    background-color: red !important;
+    color: white;
+    border-radius: 15px;
+}
+.rem-btn:hover{
+    background-color:  green !important;
+    color: white;
+}
+.edit-btn:hover{
+    background-color:  rgb(94, 83, 3) !important;
+    color: white;
+}
+
+.rem-para {
+    background-color: green;
+    color: white;
+    padding: 2px;
+    width: fit-content;
+    position: relative;
+    left: -1px;
+    bottom: 22px;
+    margin-top: 20px;
+}
+
+.gfg {
+    padding: 15px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: rgb(162, 6, 115);
+    border-radius: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgba(129, 10, 101, 0.555);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    width:30%;
+    gap: 10px;
+    margin: 10px;
+    color:whitesmoke;
+    background: linear-gradient(to right, #880a4f, #e008cb);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.btnform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputbox {
+    margin: 10px 0;
+    max-width: 310px;
+    border-bottom: 2px solid #fdfbfb;
+}  
+.inputbox input {
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 45px 0 5px;
+    color: #d7cfcf;
+}
+
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+button{
+    background-color: #845ec2 ;
+    color: #ddd  !important;
+}
